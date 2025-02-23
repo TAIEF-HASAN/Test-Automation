@@ -1,9 +1,10 @@
 # Test-Automation
 C# with selenium 
 
-<h2>Catagory</h2>
+<h2>Topics Cover</h2>
 
-**Introduction""
+**Introduction**
+**API Basics**
 
 <h2>Groups of Status code</h2>
 
