@@ -14,5 +14,8 @@ C# with selenium
     - 202 Accepted: The request has been accepted for processing, but the processing has not been completed. (POST, PUT)
     - 204 No Content: The server successfully processed the request, but is not returning any content. (DELETE)
 - 3xx: Redirection
+    - 301 Moved Permanently: The resource has been moved to a new URL permanently. (GET)
+    - 302 Found: The resource is temporarily located at a different URL. (GET)
+    - 304 Not Modified: The resource has not been modified since the last request. (GET)
 - 4xx: Client Errors
 - 5xx: Server Errors
