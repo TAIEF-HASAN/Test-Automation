@@ -34,4 +34,22 @@ C# with selenium
     - 505 HTTP Version Not Supported: The HTTP version used in the request is not supported by the server. (GET, POST, PUT, DELETE)5xx: Server Errors
 
     <h2>Postman Componets and Features</h2>
+    **Postman Components and Features**
+
+    **REQUESTS VIEW**
+    **RESPONSES VIEW**
+    **VARIABLES**
+    **SCRIPTS**
+    **COLLECTIONS**
+
+    - **Collections**: Organize your API requests into collections for better management and sharing.
+    - **Environments**: Manage different environments (e.g., development, staging, production) with environment variables.
+    - **Tests**: Write tests using JavaScript to validate API responses and automate testing.
+    - **Monitors**: Schedule automated tests to run at specific intervals and monitor API performance.
+    - **Mock Servers**: Simulate API endpoints to test and develop without actual backend services.
+    - **Documentation**: Generate and publish API documentation directly from your collections.
+    - **Workspaces**: Collaborate with team members in shared workspaces.
+    - **API Network**: Discover and connect with public APIs available in the Postman API Network.
+    - **Integrations**: Integrate Postman with other tools and services like Jenkins, GitHub, and Slack.
+    - **Postman CLI (Newman)**: Run Postman collections from the command line for CI/CD integration.
     
