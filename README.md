@@ -32,3 +32,6 @@ C# with selenium
     - 503 Service Unavailable: The server is not ready to handle the request. (GET, POST, PUT, DELETE)
     - 504 Gateway Timeout: The server, while acting as a gateway or proxy, did not get a response in time from the upstream server. (GET, POST, PUT, DELETE)
     - 505 HTTP Version Not Supported: The HTTP version used in the request is not supported by the server. (GET, POST, PUT, DELETE)5xx: Server Errors
+
+    <h2>Postman Componets and Features</h2>
+    
