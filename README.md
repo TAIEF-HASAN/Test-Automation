@@ -37,9 +37,59 @@ C# with selenium
     **Postman Components and Features**
 
     **REQUESTS VIEW**
+
+    - **Request Types**: GET, POST, PUT, DELETE, etc.
+    - **Headers**: Customize request headers.
+    - **Body**: Add request payloads for POST, PUT, PATCH requests.
+    - **Params**: Add query parameters to your requests.
+    - **Authorization**: Manage different types of authorization (e.g., API Key, OAuth 2.0).
+    - **Pre-request Scripts**: Write scripts to execute before sending the request.
+    - **Tests**: Write scripts to execute after receiving the response.
+    - **Settings**: Customize request settings like redirects, timeouts, etc.
+    - **Code**: Generate code snippets for various programming languages to make the same request.
+    - **Save**: Save requests to collections for reuse.
+
     **RESPONSES VIEW**
+
+    - **Status Code**: View the status code returned by the server.
+    - **Response Time**: Measure the time taken to get a response.
+    - **Response Size**: Check the size of the response payload.
+    - **Body**: View the response body in various formats (e.g., JSON, HTML, XML).
+    - **Headers**: Inspect the response headers.
+    - **Cookies**: Manage cookies sent by the server.
+    - **Tests**: View the results of tests executed after the response is received.
+    - **History**: Access the history of requests and responses for the current session.
+
     **VARIABLES**
+
+    - **Global Variables**: Variables that are accessible in all environments and collections.
+    - **Environment Variables**: Variables that are specific to a particular environment (e.g., development, staging, production).
+    - **Collection Variables**: Variables that are specific to a particular collection.
+    - **Local Variables**: Variables that are specific to a particular request or script.
+    - **Data Variables**: Variables that are used to parameterize requests with data from external files (e.g., CSV, JSON).
+    - **Session Variables**: Variables that are temporary and only available during the current session.
+    - **Variable Scopes**: Understand the hierarchy and precedence of different variable types.
+    - **Variable Substitution**: Use variables in request URLs, headers, body, scripts, and tests.
+    - **Managing Variables**: Create, update, and delete variables using the Postman interface or scripts.
+    - **Persisting Variables**: Save variable values between sessions and requests.
+
     **SCRIPTS**
+    
+    **Pre-request Scripts**: Write scripts to execute before sending the request to set variables, manipulate data, or perform other setup tasks.
+
+    **Test Scripts**: Write scripts to execute after receiving the response to validate data, set variables, or perform other checks.
+
+    **Script Libraries**: Use external libraries in your scripts to extend functionality.
+
+    **Script Execution Order**: Understand the order in which scripts are executed (e.g., pre-request scripts, request scripts, test scripts).
+
+    **Debugging Scripts**: Use Postman's console to debug and troubleshoot your scripts.
+
+    **Script Examples**: Access a variety of script examples and templates to get started quickly.
+
+    **Managing Scripts**: Organize and manage your scripts within collections and environments.
+
+
     **COLLECTIONS**
 
     - **Collections**: Organize your API requests into collections for better management and sharing.
