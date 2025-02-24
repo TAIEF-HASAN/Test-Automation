@@ -113,3 +113,5 @@ C# with selenium
     - In CRUD operations it is analogous to READ operations.
     - Should only fetch data from server.
     - Should not have request body.
+
+    -2. GET Method in Postman
