@@ -103,4 +103,6 @@ C# with selenium
     - **API Network**: Discover and connect with public APIs available in the Postman API Network.
     - **Integrations**: Integrate Postman with other tools and services like Jenkins, GitHub, and Slack.
     - **Postman CLI (Newman)**: Run Postman collections from the command line for CI/CD integration.
-    
+
+    <h2>Why is Authorization in API?</h2>
+    - Number of API calls should be controlled - you want to restrict the number of API calls per day/month/year per a user.    
