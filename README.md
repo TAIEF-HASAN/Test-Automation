@@ -106,3 +106,10 @@ C# with selenium
 
     <h2>Why is Authorization in API?</h2>
     - Number of API calls should be controlled - you want to restrict the number of API calls per day/month/year per a user.    
+
+    ##  What is HTTP GET?
+
+    - Used to request data from server
+    - In CRUD operations it is analogous to READ operations.
+    - Should only fetch data from server.
+    - Should not have request body.
