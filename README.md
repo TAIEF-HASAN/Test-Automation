@@ -169,11 +169,17 @@ C# with selenium
 
     ## BSF Sampler
 
-    This sampler allows you to write a sampler using a BSF scripting language.
+    This sampler allows us to write a sampler using a BSF scripting language.
 
     Here is an example of BSF Sampler in JMeter
 
     ![alt text](image-8.png)
+
+    ## Access Log Sampler
+
+    This sampler allows you to read access logs and generate HTTP requests. The log could be image, Html, CSS…
+
+    ![alt text](image-9.png)
 
 
 
