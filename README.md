@@ -120,4 +120,4 @@ C# with selenium
 
     The figure below gives some common Elements in Jmeter.
 
-    ![alt](//https://www.guru99.com/images/Jmeter.png)
+    ![alt text](image.png)
