@@ -150,10 +150,27 @@ C# with selenium
 
     ## HTTP request
 
-    This sampler lets you send an HTTP/HTTPS request to a web server.
+    This sampler lets us send an HTTP/HTTPS request to a web server.
 
     Consider the example below. JMeter sends an HTTP request to Google website and retrieve HTML files or image from this website.
 
     ![alt text](image-4.png)
 
-    
+    ## JDBC request
+
+    This sampler lets us execute Database Performance Testing. It sends a JDBC Request (an SQL query) to a database.
+
+    ![alt text](image-5.png)
+
+    ## JDBC request
+
+    This sampler lets us execute Database Performance Testing. It sends a JDBC Request (an SQL query) to a database.
+
+    ![alt text](image-6.png)
+
+    For example, a database server has a field test_result stored in a table name test_tbl. we want to query this data from the database server; we can configure JMeter to send a SQL query to this server to retrieve data.
+
+    ![alt text](image-7.png)
+
+
+
