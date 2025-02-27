@@ -187,5 +187,29 @@ C# with selenium
 
     ![alt text](image-10.png)
 
+    ## Listeners
+
+    Listeners: shows the results of the test execution. They can show results in a different format such as a tree, table, graph or log file
+
+    ![alt text](image-11.png)
+
+    Graph result listeners display the server response times on a Graph
+
+   ![alt text](image-12.png) 
+
+   View Result Tree show results of the user request in basic HTML format
+
+   ![alt text](image-13.png)
+
+   Table Result show summary of a test result in table format
+
+   ![alt text](image-14.png)
+
+   Log show summary of a test results in the text file
+
+   ![alt text](image-15.png)
+
+
+
 
 
