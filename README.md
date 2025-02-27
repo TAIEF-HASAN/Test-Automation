@@ -209,6 +209,30 @@ C# with selenium
 
    ![alt text](image-15.png)
 
+   ## CSV Data Set Config
+
+   Suppose you want to test a website for 100 users signing-in with different credentials. You do not need to record the script 100 times! You can parameterization the script to enter different login credentials. This login information (e.g. Username, password) could be stored in a text file. JMeter has an element that allows you to read different parameters from that text file. It is “CSV Data Set Config”, which is used to read lines from a file, and split them into variables. 
+
+   ![alt text](image-16.png)
+
+   This is an example of CSV Data. It’s a text file which contains user and password to login your target website
+
+   ![alt text](image-17.png)
+
+   ## HTTP Coockie Manager
+
+   Let’s understand this with an example –
+
+   You used your browser (Firefox, IE…Etc) to browse www.google.com
+
+    You log in with your user and password.
+
+    Your username and password will be stored in your computer as cookies.
+
+    Next time, when you visit www.google.com, you don’t need to do log in again because your browser will use your cookies as user data to log in.
+
+    HTTP Cookie Manager also has the same feature as a web browser. If you have an HTTP Request and the response contains a cookie, the Cookie Manager automatically stores that cookie and will use it for all future requests to that particular website.
+
 
 
 
