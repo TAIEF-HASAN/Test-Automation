@@ -135,3 +135,15 @@ C# with selenium
     For example, if you set the number of threads as 100; JMeter will create and simulate 100 user requests to the server under test
 
     ![alt text](image-1.png)
+
+    ## FTP request
+
+    Let’s imagine you want to performance test an FTP server. You can use an FTP request sampler in JMeter to do this task. This controller lets you send an FTP “download file” or “upload file” request to an FTP server.
+
+    ![alt text](image-2.png)
+
+    For example, if you want to download a file “Test.txt” from an FTP server under test, you need to configure some parameters in JMeter as the figure below
+
+    ![alt text](image-3.png)
+
+    JMeter will send FTP command to FTP server ftp.example.com, and then download a file Test.txt from that server.
