@@ -134,4 +134,4 @@ C# with selenium
 
     For example, if you set the number of threads as 100; JMeter will create and simulate 100 user requests to the server under test
 
-    https://www.guru99.com/images/ThreadGroup.png
+    ![alt text](image-1.png)
