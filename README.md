@@ -114,4 +114,10 @@ C# with selenium
     - Should only fetch data from server.
     - Should not have request body.
 
-    -2. GET Method in Postman
+    ## What is Elements in Jmeter?
+    
+    The different Components of Jmeter are called Elements. Each Elements is designed for a specific purpose.
+
+    The figure below gives some common Elements in Jmeter.
+
+    ![alt](//https://www.guru99.com/images/Jmeter.png)
