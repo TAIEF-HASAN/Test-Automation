@@ -156,11 +156,6 @@ C# with selenium
 
     ![alt text](image-4.png)
 
-    ## JDBC request
-
-    This sampler lets us execute Database Performance Testing. It sends a JDBC Request (an SQL query) to a database.
-
-    ![alt text](image-5.png)
 
     ## JDBC request
 
