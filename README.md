@@ -147,3 +147,11 @@ C# with selenium
     ![alt text](image-3.png)
 
     JMeter will send FTP command to FTP server ftp.example.com, and then download a file Test.txt from that server.
+
+    ## HTTP request
+
+    This sampler lets you send an HTTP/HTTPS request to a web server.
+
+    Consider the example below. JMeter sends an HTTP request to Google website and retrieve HTML files or image from this website.
+
+    ![alt text](image-4.png)
