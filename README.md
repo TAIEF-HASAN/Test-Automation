@@ -251,6 +251,20 @@ C# with selenium
 
     This element will be explained in detail in tutorial JMeter Performance Testing
 
+    ## Login Congig Element
+
+    The Login Config Element lets you add or override username and password settings in samplers.
+
+    For example, you want to simulate one user login to website www.facebook.com with user and password. You can use the Login Config Element to add this user and password setting in a user request
+
+    ![alt text](image-19.png)
+
+    The Login Config Element vs. the CSV data Config
+
+    ![alt text](image-20.png)
+
+    
+
 
 
 
