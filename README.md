@@ -181,5 +181,11 @@ C# with selenium
 
     ![alt text](image-9.png)
 
+    ## SMTP Sampler
+
+    If you want to test a mail server, you can use SMTP sampler. This sampler is used to send email messages using the SMTP protocol.
+
+    ![alt text](image-10.png)
+
 
 
