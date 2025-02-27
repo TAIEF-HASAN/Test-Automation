@@ -121,3 +121,17 @@ C# with selenium
     The figure below gives some common Elements in Jmeter.
 
     ![alt text](image.png)
+
+    Studying all the components in one go is an invitation to confusion and boredome. Here, we will discuss the must-know components before we can start Testing in JMeter.
+
+    Remaining components will be discussed as when they are used in the succeeding topics. The elements discussed in this topics are
+
+    ## Thread Group
+
+    Thread Groups is a collection of Threads. Each thread represents one user using the application under test. Basically, each Thread simulates one real user request to the server.
+
+    The controls for a thread group allow you to Set the number of threads for each group.
+
+    For example, if you set the number of threads as 100; JMeter will create and simulate 100 user requests to the server under test
+
+    https://www.guru99.com/images/ThreadGroup.png
