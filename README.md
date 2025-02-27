@@ -223,15 +223,33 @@ C# with selenium
 
    Let’s understand this with an example –
 
-   You used your browser (Firefox, IE…Etc) to browse www.google.com
+   we used our browser (Firefox, IE…Etc) to browse www.google.com
 
-    You log in with your user and password.
+    we log in with our user and password.
 
-    Your username and password will be stored in your computer as cookies.
+    we username and password will be stored in our computer as cookies.
 
-    Next time, when you visit www.google.com, you don’t need to do log in again because your browser will use your cookies as user data to log in.
+    Next time, when we visit www.google.com, we don’t need to do log in again because our browser will use our cookies as user data to log in.
 
-    HTTP Cookie Manager also has the same feature as a web browser. If you have an HTTP Request and the response contains a cookie, the Cookie Manager automatically stores that cookie and will use it for all future requests to that particular website.
+    HTTP Cookie Manager also has the same feature as a web browser. If we have an HTTP Request and the response contains a cookie, the Cookie Manager automatically stores that cookie and will use it for all future requests to that particular website.
+
+    ## HTTP request default
+
+    This element lets you set default values that your HTTP Request controllers use.
+
+    For example,
+
+    we are sending 100 HTTP requests to the server google.com
+
+    we would have to manually enter server name = google.com for all these 100 requests
+
+    Instead, we could add a single HTTP request defaults with the “Server Name or IP” field = google.com
+
+    No need to type 100 times!
+
+    ![alt text](image-18.png)
+
+    This element will be explained in detail in tutorial JMeter Performance Testing
 
 
 
