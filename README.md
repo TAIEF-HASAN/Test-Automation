@@ -167,5 +167,13 @@ C# with selenium
 
     ![alt text](image-7.png)
 
+    ## BSF Sampler
+
+    This sampler allows you to write a sampler using a BSF scripting language.
+
+    Here is an example of BSF Sampler in JMeter
+
+    ![alt text](image-8.png)
+
 
 
