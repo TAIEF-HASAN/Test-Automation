@@ -155,3 +155,5 @@ C# with selenium
     Consider the example below. JMeter sends an HTTP request to Google website and retrieve HTML files or image from this website.
 
     ![alt text](image-4.png)
+
+    
