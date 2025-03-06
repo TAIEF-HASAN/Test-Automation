@@ -119,8 +119,9 @@ C# with selenium
     The different Components of Jmeter are called Elements. Each Elements is designed for a specific purpose.
 
     The figure below gives some common Elements in Jmeter.
+    
 
-    ![alt text](image.png)
+    ![alt text](Images/image.png)
 
     Studying all the components in one go is an invitation to confusion and boredome. Here, we will discuss the must-know components before we can start Testing in JMeter.
 
@@ -134,17 +135,17 @@ C# with selenium
 
     For example, if you set the number of threads as 100; JMeter will create and simulate 100 user requests to the server under test
 
-    ![alt text](image-1.png)
+    ![alt text](Images/image-1.png)
 
     ## FTP request
 
     Let’s imagine you want to performance test an FTP server. You can use an FTP request sampler in JMeter to do this task. This controller lets you send an FTP “download file” or “upload file” request to an FTP server.
 
-    ![alt text](image-2.png)
+    ![alt text](Images/image-2.png)
 
     For example, if you want to download a file “Test.txt” from an FTP server under test, you need to configure some parameters in JMeter as the figure below
 
-    ![alt text](image-3.png)
+    ![alt text](Images/image-3.png)
 
     JMeter will send FTP command to FTP server ftp.example.com, and then download a file Test.txt from that server.
 
@@ -154,18 +155,18 @@ C# with selenium
 
     Consider the example below. JMeter sends an HTTP request to Google website and retrieve HTML files or image from this website.
 
-    ![alt text](image-4.png)
+    ![alt text](Images/image-4.png)
 
 
     ## JDBC request
 
     This sampler lets us execute Database Performance Testing. It sends a JDBC Request (an SQL query) to a database.
 
-    ![alt text](image-6.png)
+    ![alt text](Images/image-6.png)
 
     For example, a database server has a field test_result stored in a table name test_tbl. we want to query this data from the database server; we can configure JMeter to send a SQL query to this server to retrieve data.
 
-    ![alt text](image-7.png)
+    ![alt text](Images/image-7.png)
 
     ## BSF Sampler
 
@@ -173,51 +174,51 @@ C# with selenium
 
     Here is an example of BSF Sampler in JMeter
 
-    ![alt text](image-8.png)
+    ![alt text](Images/image-8.png)
 
     ## Access Log Sampler
 
     This sampler allows you to read access logs and generate HTTP requests. The log could be image, Html, CSS…
 
-    ![alt text](image-9.png)
+    ![alt text](Images/image-9.png)
 
     ## SMTP Sampler
 
     If you want to test a mail server, you can use SMTP sampler. This sampler is used to send email messages using the SMTP protocol.
 
-    ![alt text](image-10.png)
+    ![alt text](Images/image-10.png)
 
     ## Listeners
 
     Listeners: shows the results of the test execution. They can show results in a different format such as a tree, table, graph or log file
 
-    ![alt text](image-11.png)
+    ![alt text](Images/image-11.png)
 
     Graph result listeners display the server response times on a Graph
 
-   ![alt text](image-12.png) 
+   ![alt text](Images/image-12.png) 
 
    View Result Tree show results of the user request in basic HTML format
 
-   ![alt text](image-13.png)
+   ![alt text](Images/image-13.png)
 
    Table Result show summary of a test result in table format
 
-   ![alt text](image-14.png)
+   ![alt text](Images/image-14.png)
 
    Log show summary of a test results in the text file
 
-   ![alt text](image-15.png)
+   ![alt text](Images/image-15.png)
 
    ## CSV Data Set Config
 
    Suppose you want to test a website for 100 users signing-in with different credentials. You do not need to record the script 100 times! You can parameterization the script to enter different login credentials. This login information (e.g. Username, password) could be stored in a text file. JMeter has an element that allows you to read different parameters from that text file. It is “CSV Data Set Config”, which is used to read lines from a file, and split them into variables. 
 
-   ![alt text](image-16.png)
+   ![alt text](Images/image-16.png)
 
    This is an example of CSV Data. It’s a text file which contains user and password to login your target website
 
-   ![alt text](image-17.png)
+   ![alt text](Images/image-17.png)
 
    ## HTTP Coockie Manager
 
@@ -247,7 +248,7 @@ C# with selenium
 
     No need to type 100 times!
 
-    ![alt text](image-18.png)
+    ![alt text](Images/image-18.png)
 
     This element will be explained in detail in tutorial JMeter Performance Testing
 
@@ -257,17 +258,8 @@ C# with selenium
 
     For example, you want to simulate one user login to website www.facebook.com with user and password. You can use the Login Config Element to add this user and password setting in a user request
 
-    ![alt text](image-19.png)
+    ![alt text](Images/image-19.png)
 
     The Login Config Element vs. the CSV data Config
 
-    ![alt text](image-20.png)
-
-    
-
-    
-
-
-
-
-
+    ![alt text](Images/image-20.png)
