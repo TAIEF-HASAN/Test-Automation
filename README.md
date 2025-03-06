@@ -285,5 +285,7 @@ C# with selenium
 
     ![alt text](Images/image21.png)
 
+    https://www.guru99.com/images/RemoveElement.gif
+
 
     
