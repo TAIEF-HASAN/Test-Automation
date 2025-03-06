@@ -299,7 +299,7 @@ C# with selenium
 
     A dialog box display, click Save button to save your elements under default name BeanShell Assertion.jmx. You can choose other names if you want
 
-    ![alt text](image.png)
+    ![alt text](Images/image23.png)
 
 
  
