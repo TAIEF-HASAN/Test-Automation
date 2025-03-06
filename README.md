@@ -264,4 +264,8 @@ C# with selenium
 
     ![alt text](Images/image-20.png)
 
+    ## What is a Test Plan?
+
+    Test plan is where you add elements required for your JMeter Test.
+
     
