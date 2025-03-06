@@ -295,7 +295,7 @@ C# with selenium
 
     Right-click BeanShell Assertion -> select <b>Save Selection As</b>
 
-    ![alt text](image.png)
+    ![alt text](Images/image22.png)
  
 
 
