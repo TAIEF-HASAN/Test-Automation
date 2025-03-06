@@ -270,5 +270,20 @@ C# with selenium
 
     It stores all the elements (like ThreadGroup, Timers etc) and their corresponding settings required to run your desired Tests.
 
+    ## How to add Elements?
+
+    Adding Elements is the essential step to build a Test Plan because without adding elements, JMeter cannot execute your Test Plan
+
+    A Test Plan includes many Elements such as Listener, Controller, and Timer
+
+    You can add an element to test plan by right-clicking on a Test Plan and choose new elements from “Add” list.
+
+    Suppose, you want to add 2 elements to Test Plan BeanShell Assertion and Java Request Default
+
+    - Right click Test Plan -> Add -> Assertion-> Bean Shell Assertion
+    - Right click Test Plan -> Add -> Config Element -> Java Request Default
+
+    ![alt text](Images/image21.png)
+
 
     
