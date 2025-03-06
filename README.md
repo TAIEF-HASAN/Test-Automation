@@ -268,4 +268,7 @@ C# with selenium
 
     Test plan is where you add elements required for your JMeter Test.
 
+    It stores all the elements (like ThreadGroup, Timers etc) and their corresponding settings required to run your desired Tests.
+
+
     
