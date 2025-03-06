@@ -294,6 +294,8 @@ C# with selenium
     Suppose you have already added an element name “BeanShell Assertion“. Now you want to save it.
 
     Right-click BeanShell Assertion -> select <b>Save Selection As</b>
+
+    ![alt text](image.png)
  
 
 
