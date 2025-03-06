@@ -287,5 +287,14 @@ C# with selenium
 
     https://www.guru99.com/images/RemoveElement.gif
 
+    ## Loding and Saving Elements
+
+    ## How to Create JMX file
+
+    Suppose you have already added an element name “BeanShell Assertion“. Now you want to save it.
+
+    Right-click BeanShell Assertion -> select <b>Save Selection As</b>
+ 
+
 
     
