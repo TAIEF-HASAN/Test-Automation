@@ -324,7 +324,7 @@ C# with selenium
         1. Select the element in the Tree on Left Pane
         2. Enter configuration settings on the Right Pane  
 
-    ![alt text 26](Images\image26.png)
+    ![alt text 26](Images/image26.png)
 
 
     ## How to Save a Test Plan
@@ -334,7 +334,7 @@ C# with selenium
         1. File -> Save Test Plan as-> a Dialog box display
         2. Enter a filename of Test Plan ->click Save
 
-    ![alt text](Images\image27.png)
+    ![alt text](Images/image27.png)
 
     https://www.guru99.com/images/SaveTestPlan.gif
 
@@ -353,31 +353,31 @@ C# with selenium
 
     You can merge one or many Test Plans to create a combo Test Plan as shown in below figure
 
-    ![alt text](Images\image28.png)
+    ![alt text](Images/image28.png)
 
     Suppose you already have an existing Test Plan name Test_Fragment.jmx on your computer (This article includes this file). You can merge this test plan to current Test Plan on JMeter to create a new Test Plan.
 
-    ![alt text](Images\image29.png)
+    ![alt text](Images/image29.png)
 
     Now all the test elements in file Test_Fragment.jmx are added to your current test plan as shown in the figure below
 
-    ![alt text](Images\image30.png)
+    ![alt text](Images/image30.png)
 
     ## How to Run Test Plan
 
     To run your single or multiple test plans, choose Start (Control + R) from the Run menu item.
 
-    ![alt text](Images\image31.png)
+    ![alt text](Images/image31.png)
 
     When JMeter is running, it shows a small green box at the right-hand end of the menu bar.
 
-    ![alt text](Images\image32.png)
+    ![alt text](Images/image32.png)
 
     The numbers to the left of the green box are the number of active threads / total number of threads.
 
     To Stop the Test, press Stop button or use short key Ctrl + ‘.’
 
-    ![alt text](Images\image33.png)
+    ![alt text](Images/image33.png)
 
     ## Test Report
 
