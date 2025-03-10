@@ -340,13 +340,12 @@ C# with selenium
 
     Note: Saving a Test Plan is **different** from saving elements.
 
-    | Saving a Test Plan                         | Saving an Element                      |
-    |--------------------------------------------|----------------------------------------|
-    | Test Plan consists of one or many elements | Element is a basic component of JMeter |
-    |--------------------------------------------|----------------------------------------|
+    | Saving a Test Plan                                                        | Saving an Element                                        |
+    |---------------------------------------------------------------------------|----------------------------------------------------------|
+    | Test Plan consists of one or many elements                                | Element is a basic component of JMeter                   |
+    |---------------------------------------------------------------------------|----------------------------------------------------------|
     | When you save your Test Plan, all thoseelements in the plan are saved     | When you save your elements, only one  element is saved. |
-    |             |                      |
-    |-------------------------------------------------------------------------------------|
+    |--------------------------------------------------------------------------------------------------------------------------------------|
 
 
     ## Create a Combo Test Plan
