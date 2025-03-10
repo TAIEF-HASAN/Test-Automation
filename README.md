@@ -301,6 +301,8 @@ C# with selenium
 
     ![alt text](Images/image23.png)
 
+    JMeter Test Elements and Test plan are stored in **\*.JMX** format. **JMX** is standing for Java Management Extensions.
+
 
  
 
