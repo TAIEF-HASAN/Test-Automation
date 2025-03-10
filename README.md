@@ -311,11 +311,11 @@ C# with selenium
 
     Right-click **Java Request Defaults->** select **Merge**
 
-    ![alt text](image24.png)
+    ![alt text](Images/image24.png)
 
     Choose the Elements (BeanShell Assertion.jmx.) file in the directory. This element will be added to your current test plan.
 
-    ![alt text](image25.png)
+    ![alt text](Images/image25.png)
 
     ## How to Configure Elements
 
