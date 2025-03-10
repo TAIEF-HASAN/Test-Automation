@@ -344,8 +344,8 @@ C# with selenium
     |--------------------------------------------|----------------------------------------|
     | Test Plan consists of one or many elements | Element is a basic component of JMeter |
     |--------------------------------------------|----------------------------------------|
-    | When you save your Test Plan, all those    | When you save your elements, only one  |
-    | elements in the plan are saved             | element is saved.                      |
+    | When you save your Test Plan, all thoseelements in the plan are saved     | When you save your elements, only one  element is saved. |
+    |             |                      |
     |-------------------------------------------------------------------------------------|
 
 
