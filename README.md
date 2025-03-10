@@ -353,7 +353,7 @@ C# with selenium
 
     You can merge one or many Test Plans to create a combo Test Plan as shown in below figure
 
-    ![alt text](Images\image-28.png)
+    ![alt text](Images\image28.png)
 
     Suppose you already have an existing Test Plan name Test_Fragment.jmx on your computer (This article includes this file). You can merge this test plan to current Test Plan on JMeter to create a new Test Plan.
 
