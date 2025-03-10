@@ -334,8 +334,18 @@ C# with selenium
         1. File -> Save Test Plan as-> a Dialog box display
         2. Enter a filename of Test Plan ->click Save
 
+    ![alt text](Images\image27.png)
+    https://www.guru99.com/images/SaveTestPlan.gif
 
+    Note: Saving a Test Plan is **different** from saving elements.
 
+    | Saving a Test Plan                         | Saving an Element                      |
+    |--------------------------------------------|----------------------------------------|
+    | Test Plan consists of one or many elements | Element is a basic component of JMeter |
+    |--------------------------------------------|----------------------------------------|
+    | When you save your Test Plan, all those    | When you save your elements, only one  |
+    | elements in the plan are saved             | element is saved.                      |
+    |-------------------------------------------------------------------------------------|
 
 
 
