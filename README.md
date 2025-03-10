@@ -366,17 +366,17 @@ C# with selenium
 
     To run your single or multiple test plans, choose Start (Control + R) from the Run menu item.
 
-    ![alt text](Images\image.png)
+    ![alt text](Images\image31.png)
 
     When JMeter is running, it shows a small green box at the right-hand end of the menu bar.
 
-    ![alt text](image.png)
+    ![alt text](Images\image32.png)
 
     The numbers to the left of the green box are the number of active threads / total number of threads.
 
     To Stop the Test, press Stop button or use short key Ctrl + ‘.’
 
-    ![alt text](image.png)
+    ![alt text](Images\image33.png)
 
     ## Test Report
 
