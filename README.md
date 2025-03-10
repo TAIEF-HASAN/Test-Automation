@@ -342,7 +342,7 @@ C# with selenium
     | Saving a Test Plan                         | Saving an Element                      |
     |--------------------------------------------|----------------------------------------|
     | Test Plan consists of one or many elements | Element is a basic component of JMeter |
-    ---------------------------------------------------------------------------------------
+    |-------------------------------------------------------------------------------------|
     | When you save your Test Plan, all those    | When you save your elements, only one  |
     | elements in the plan are saved             | element is saved.                      |
     |-------------------------------------------------------------------------------------|
