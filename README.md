@@ -324,7 +324,7 @@ C# with selenium
         1. Select the element in the Tree on Left Pane
         2. Enter configuration settings on the Right Pane  
 
-            ![alt text](Images\image26.png)
+    ![alt text](Images\image26.png)
 
 
     ## How to Save a Test Plan
