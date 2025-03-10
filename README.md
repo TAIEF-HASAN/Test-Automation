@@ -303,6 +303,18 @@ C# with selenium
 
     JMeter Test Elements and Test plan are stored in **\*.JMX** format. **JMX** is standing for Java Management Extensions.
 
+    ## How to Run JMX file
+
+    Loading exist element helps you save your time required to create & configure new elements
+
+    Let’s say, that you have an existing element in Test Plan: **Java Request Default**
+
+    Right-click **Java Request Defaults->** select **Merge**
+
+
+
+
+
 
  
 
