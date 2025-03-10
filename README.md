@@ -324,7 +324,7 @@ C# with selenium
         1. Select the element in the Tree on Left Pane
         2. Enter configuration settings on the Right Pane  
 
-    ![alt text](Images\image26.png)
+    ![alt text 26](Images\image26.png)
 
 
     ## How to Save a Test Plan
@@ -335,6 +335,7 @@ C# with selenium
         2. Enter a filename of Test Plan ->click Save
 
     ![alt text](Images\image27.png)
+
     https://www.guru99.com/images/SaveTestPlan.gif
 
     Note: Saving a Test Plan is **different** from saving elements.
