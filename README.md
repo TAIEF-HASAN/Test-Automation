@@ -311,6 +311,23 @@ C# with selenium
 
     Right-click **Java Request Defaults->** select **Merge**
 
+    ![alt text](image24.png)
+
+    Choose the Elements (BeanShell Assertion.jmx.) file in the directory. This element will be added to your current test plan.
+
+    ![alt text](image25.png)
+
+    ## How to Configure Elements
+
+    In order to configure any Element
+
+        1. Select the element in the Tree on Left Pane
+        2. Enter configuration settings on the Right Pane  
+
+            ![alt text](image26.png)
+
+
+
 
 
 
