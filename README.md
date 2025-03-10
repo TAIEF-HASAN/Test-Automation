@@ -362,6 +362,44 @@ C# with selenium
 
     ![alt text](Images\image30.png)
 
+    ## How to Run Test Plan
+
+    To run your single or multiple test plans, choose Start (Control + R) from the Run menu item.
+
+    ![alt text](Images\image.png)
+
+    When JMeter is running, it shows a small green box at the right-hand end of the menu bar.
+
+    ![alt text](image.png)
+
+    The numbers to the left of the green box are the number of active threads / total number of threads.
+
+    To Stop the Test, press Stop button or use short key Ctrl + ‘.’
+
+    ![alt text](image.png)
+
+    ## Test Report
+
+    When test execution is done, you can get the test report. The test report includes the error log file, which is saved in jmeter.log, and the test results summary. Here is a sample log file of JMeter
+
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: Copyright (c) 1998-2013 The Apache Software Foundation
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: Version 2.9 r1437961
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: java.version=1.7.0_25
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: os.name=Windows 7
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: os.arch=x86
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: os.version=6.1
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: file.encoding=Cp1252
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: Default Locale=English (United States)
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: JMeter  Locale=English (United States)
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: JMeterHome=C:\Nguyen\Source_code\apache-jmeter-2.9
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: user.dir  =c:\Nguyen\Source_code\apache-jmeter-2.9\bin
+        -   2013/08/18 08:41:12 INFO  – jmeter.JMeter: PWD       =C:\Nguyen\Source_code\apache-jmeter-2.9\bin
+
+
+
+
+
 
 
 
