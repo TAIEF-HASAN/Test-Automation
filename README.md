@@ -331,8 +331,8 @@ C# with selenium
 
     Before running a test, you should save your Test Plan first. Saving your Test Plan helps you avoid unexpected error when running the test plan. Steps to saving Test plan –
 
-        1. **File -> Save Test Plan as-> a Dialog box display**
-        2. Enter a filename of Test Plan ->click **Save**
+        1. File -> Save Test Plan as-> a Dialog box display
+        2. Enter a filename of Test Plan ->click Save
 
 
 
