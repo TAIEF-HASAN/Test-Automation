@@ -55,7 +55,13 @@ Right click on the “Test Plan” and add a new thread group: **Add -> Threads 
 
 In the Thread Group control panel, enter Thread Properties as follows:
 
-![alt text](image.png)
+![alt text](Images/image-39.png)
+
+    - Number of Threads: 100 (Number of users connects to the target website: 100)
+    - Loop Count: 10 (Number of time to execute testing)
+    - Ramp-Up Period: 100
+
+The Thread Count and The Loop Counts are **different.**
 
 
 
