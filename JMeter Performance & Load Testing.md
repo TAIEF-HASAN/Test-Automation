@@ -117,6 +117,17 @@ The picture below presents a graph of a test plan, where we simulated 100 users 
 
 ![alt text](Images/image48.png)
 
+At the bottom of the picture, there are the following statistics, represented in colors:
+
+- Black: The total number of current samples sent.
+- **<span style="color:blue">Blue</span>**: The current average of all samples sent.
+- **<span style="color:red">Red</span>**: The current standard deviation.
+- **<span style="color:green">Green</span>**: Throughput rate that represents the number of requests per minute the server handled
+
+Let analyze the performance of Google server in below figure.
+
+
+
 
 
 
