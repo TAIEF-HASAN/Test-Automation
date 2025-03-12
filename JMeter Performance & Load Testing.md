@@ -63,6 +63,8 @@ In the Thread Group control panel, enter Thread Properties as follows:
 
 The Thread Count and The Loop Counts are **different.**
 
+![alt text](image.png)
+
 
 
 
