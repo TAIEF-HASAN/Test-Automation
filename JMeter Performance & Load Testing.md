@@ -126,6 +126,8 @@ At the bottom of the picture, there are the following statistics, represented in
 
 Let analyze the performance of Google server in below figure.
 
+![alt text](image.png)
+
 
 
 
