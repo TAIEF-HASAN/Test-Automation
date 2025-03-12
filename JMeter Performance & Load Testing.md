@@ -22,6 +22,9 @@ JMeter Performance Testing includes:
 
 ![Images 35](Images/image35.png)
 
+    - Load Testing: Modeling the expected usage by simulating multiple user access the Web services concurrently.
+    - Stress Testing: Every web server has a maximum load capacity. When the load goes beyond the limit, the web server starts responding slowly and produce errors. The purpose of the Stress Testing is to find the maximum load the web server can handle.
+
 
 
 
