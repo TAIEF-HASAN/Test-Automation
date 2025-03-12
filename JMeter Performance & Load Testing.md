@@ -69,6 +69,39 @@ Ramp-Up Period tells JMeter how long to delay before starting the next user. For
 
 ![alt text](image.png)
 
+## Step 2) Adding JMeter elements
+
+Now we determine what JMeter elements in this test. The elements are
+
+- ## HTTP request Default
+
+This element can be added by right-clicking on the Thread Group and selecting: **Add -> Config Element -> HTTP Request Defaults.**
+
+![alt text](Images/image42.png)
+
+In the HTTP Request Defaults control panel, enter the Website name under test (http://www.google.com)
+
+![alt text](Images/image43.png)
+
+- ## HTTP Request
+
+Right-click on Thread Group and select: **Add -> Sampler -> HTTP Request.**
+
+![alt text](Images/image44.png)
+
+In HTTP Request Control Panel, the Path field indicates which URL request you want to send to Google server.
+
+![alt text](Images/image45.png)
+
+For example, if you enter “calendar” in Path field. JMeter will create the URL request http://www.google.com/calendar to Google server
+
+![alt text](Images/image46.png)
+
+If you keep the Path field blank JMeter will create the URL request http://www.google.com to Google server.
+
+**In this test, you keep the Path field blank to make JMeter create the URL request http://www.google.com to Google server.**
+
+
 
 
 
