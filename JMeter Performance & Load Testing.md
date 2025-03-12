@@ -126,7 +126,39 @@ At the bottom of the picture, there are the following statistics, represented in
 
 Let analyze the performance of Google server in below figure.
 
-![alt text](image.png)
+![alt text](Images/image49.png)
+
+To analyze the performance of the web server under test, you should focus on 2 parameters
+
+- **<span style="color:green">Throughput</span>**
+- **<span style="color:red">Deviation</span>**
+
+The Throughput is the most important parameter. It represents the ability of the server to handle a heavy load. The higher the Throughput is, the better is the server performance.
+
+In this test, the throughput of Google server is 1,491.193/minute. It means Google server can handle 1,491.193 requests per minute. This value is quite high so we can conclude that Google server has good performance
+
+The deviation is shown in red – it indicates the deviation from the average. The smaller the better.
+
+Let compare the performance of Google server to other web servers. This is the performance test result of website http://www.yahoo.com/ (You can choose other websites)
+
+![alt text](Images/image50.png)
+
+The throughput of a website under test http://www.yahoo.com is 867.326/minutes. It means this server handle 867.326 requests per minute, lower than Google.
+
+The deviation is 2689, much higher than Google (577). So we can determine the performance of this website is less than a Google server.
+
+**NOTE:** The above values depend on several factors like current server load at Google, your internet speed, your CPU power etc. Hence, it’s very unlikely that you will get the same results as above. So don’t panic! If you’re interested in understanding how server load impacts performance and how to test it, you might find this load testing tutorial useful.
+
+## Troubleshooting
+If you face the issue while running the above scenario … do the following
+
+1. Check whether you are connecting to the internet via a proxy. If yes, remove the proxy.
+2. Open a new instance of Jmeter
+3. Open the PerformanceTestPlan.jmx in Jmeter
+4. Double Click on Thread Group -> Graph Result
+5. Run the Test
+
+
 
 
 
