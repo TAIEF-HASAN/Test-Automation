@@ -11,5 +11,13 @@
 
 ![alt text](Images/image34.png)
 
+Apache JMeter testing tool offers following **benefit** in **Performance Testing**
+
+    - JMeter can be used to test the performance of both static resources such as JavaScript and HTML, as well as dynamic resources, such as JSP, Servlets, and AJAX.
+    - JMeter can discover maximum number of concurrent users that your website can handle
+    - JMeter provides a variety of graphical analyses of performance reports.
+
+
+
 
 
