@@ -43,6 +43,16 @@ Here is the **roadmap** of this practical example
 
 ![alt text](Images/image37.png)
 
+## Step 1) Add Thread Group
+
+    1.Start JMeter
+    2.Select Test Plan on the tree
+    3.Add Thread Group
+
+Right click on the “Test Plan” and add a new thread group: **Add -> Threads (Users) -> Thread Group**
+
+![alt text](Images/image38.png)
+
 
 
 
