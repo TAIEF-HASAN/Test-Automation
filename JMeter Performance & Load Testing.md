@@ -53,6 +53,10 @@ Right click on the “Test Plan” and add a new thread group: **Add -> Threads 
 
 ![alt text](Images/image38.png)
 
+In the Thread Group control panel, enter Thread Properties as follows:
+
+![alt text](image.png)
+
 
 
 
