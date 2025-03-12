@@ -9,5 +9,7 @@
 
 **JMeter Performance Testing** is Testing method performed using Apache JMeter to test the performance of a web application. JMeter for performance testing helps to test both static and dynamic resources, helps to discover concurrent users on website and provides variety of graphical analysis for performance testing. JMeter performance testing includes load test and stress test of web application.
 
+![alt text](Images/image34.png)
+
 
 
