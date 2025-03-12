@@ -41,7 +41,7 @@ Before testing the performance of target web application, we should determine-
 
 Here is the **roadmap** of this practical example
 
-![alt text](image.png)
+![alt text](Images/image37.png)
 
 
 
