@@ -65,6 +65,12 @@ The Thread Count and The Loop Counts are **different.**
 
 ![alt text](image.png)
 
+Ramp-Up Period tells JMeter how long to delay before starting the next user. For example, if we have 100 users and a 100-second Ramp-Up period, then the delay between starting users would be 1 second (100 seconds /100 users)
+
+![alt text](image.png)
+
+
+
 
 
 
