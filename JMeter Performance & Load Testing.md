@@ -101,6 +101,14 @@ If you keep the Path field blank JMeter will create the URL request http://www.g
 
 **In this test, you keep the Path field blank to make JMeter create the URL request http://www.google.com to Google server.**
 
+## Step 3) Adding Graph result
+
+JMeter can show the test result in Graph format.
+
+Right click Test Plan, **Add -> Listener -> Graph Results**
+
+![alt text](Images/image47.png)
+
 
 
 
