@@ -29,6 +29,21 @@ The figure below shows how JMeter load Testing simulates the heavy load:
 
 ![alt text](Images/image36.png)
 
+## Create a Performance Test Plan in JMeter
+
+In this tutorial, we are doing a performance analysis of Google.com for 1000 users using various performance testing tools to ensure the website can handle the load and provide a seamless user experience.
+
+Before testing the performance of target web application, we should determine-
+
+    - Normal Load: Average number of users visit your website
+    - Heavy Load: The maximum number of users visit your website
+    - What is your target in this test?
+
+Here is the **roadmap** of this practical example
+
+![alt text](image.png)
+
+
 
 
 
