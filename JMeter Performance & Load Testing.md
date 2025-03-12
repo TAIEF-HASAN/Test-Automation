@@ -18,6 +18,10 @@ Apache JMeter testing tool offers following **benefit** in **Performance Testing
     - JMeter provides a variety of graphical analyses of performance reports.
 
 
+JMeter Performance Testing includes:
+
+![Images 35](Images/image35.png)
+
 
 
 
