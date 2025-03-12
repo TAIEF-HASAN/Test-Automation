@@ -109,6 +109,16 @@ Right click Test Plan, **Add -> Listener -> Graph Results**
 
 ![alt text](Images/image47.png)
 
+## Step 4) Run Test and get the test result
+
+Press **the Run** button (Ctrl + R) on the Toolbar to start the software testing process. You will see the test result display on Graph in the real time.
+
+The picture below presents a graph of a test plan, where we simulated 100 users who accessed on website www.google.com.
+
+![alt text](Images/image48.png)
+
+
+
 
 
 
