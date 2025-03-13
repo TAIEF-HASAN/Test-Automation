@@ -50,4 +50,4 @@ Uniform random timer delays each user request for a random amount of time.
 | Random Delay Maximum           | Maximum random number of milliseconds to delay.       |
 | Constant Delay Offset (milliseconds) | **Additional** value in milliseconds                    |
 
-The total delay is the sum of the random value and the offset value.
+**The total delay is the sum of the random value and the offset value.**
