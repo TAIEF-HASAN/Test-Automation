@@ -69,3 +69,8 @@ Let start with a simple test script
 1. JMeter creates one user request to http://www.google.com **100** times
 2. Delay between each user request is **5000** ms
 Here is the **roadmap** for this practical example:
+
+![alt text](TimersImages/image6.png)
+
+Pre-condition
+[JMeter Performance & Load Testing](JMeter%20Performance%20%26%20Load%20Testing.md)JMeter Performance Testing.
