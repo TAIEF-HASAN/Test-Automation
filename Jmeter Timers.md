@@ -33,4 +33,21 @@ Gaussian random timer delays each user request for a **random** amount of time.
 | Deviations (milliseconds)      | A parameter of Gaussian Distribution Function         |
 | Constant Delay Offset (milliseconds) | Additional value in milliseconds                    |
 
+So the total delay is described as below figure:
 
+![alt text](TimersImages/image4.png)
+
+## Uniform Random Timer
+
+Uniform random timer delays each user request for a random amount of time.
+
+![alt text](TimersImages/image5.png)
+
+### Parameters
+| Attribute                      | Description                                           |
+|--------------------------------|-------------------------------------------------------|
+| Name                           | Descriptive name for this timer that is shown in the tree |
+| Random Delay Maximum           | Maximum random number of milliseconds to delay.       |
+| Constant Delay Offset (milliseconds) | **Additional** value in milliseconds                    |
+
+The total delay is the sum of the random value and the offset value.
