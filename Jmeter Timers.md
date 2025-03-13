@@ -72,5 +72,78 @@ Here is the **roadmap** for this practical example:
 
 ![alt text](TimersImages/image6.png)
 
-Pre-condition
-[JMeter Performance & Load Testing](JMeter%20Performance%20%26%20Load%20Testing.md)JMeter Performance Testing.
+### Pre-condition
+We re-use the Step 1 and Step 2 in tutorial [JMeter Performance & Load Testing](JMeter%20Performance%20%26%20Load%20Testing.md)JMeter Performance Testing.
+
+### Step 1) Add Thread Group
+Right click on the Test Plan and add a new thread group: **Add-> Threads (Users) ->Thread Group**
+
+In Thread Group control panel, enter Thread Properties as following
+
+![alt text](TimersImages/image7.png)
+
+This setting lets JMeter create **one** user request to http://www.google.com in **100** times
+
+## Step 2) Add JMeter elements
+    - Add HTTP request default
+    - Add HTTP request
+
+## Step 3) Add Constant Timer
+Right-click **Thread Group -> Timer -> Constant Timer**
+
+![alt text](TimersImages/image8.png)
+
+Configuring Thread Delay of 5000 milliseconds
+
+![alt text](TimersImages/image9.png)
+
+### Step 4) Add View Results in Table
+View Results in Table displays the test result in table format.
+
+Right click **Add -> Listener ->View Result in Table**
+
+![alt text](TimersImages/image10.png)
+
+View Results in Table displays as below figure
+
+![alt text](TimersImages/image11.png)
+
+### Step 5) Run your test
+When you ready to run a test, click the Run button on the menu bar, or short key Ctrl+R
+
+This is the result of this test
+
+![alt text](TimersImages/image12.png)
+
+For example, in the above figure, let analyze the **Sample 2**
+
+- **Start time** is 22:05:01.866
+- **Sample Time** of Sample 2 is 172 ms
+- **Constant Timer:** 5000 ms (as configured)
+- **End Time** of this sample is = 22:05:01.866 + 172 + 5000 = 22:05:07.038
+
+So the Sample 3 should start at the time is **22:05:07.039** ( As shown in the above figure)
+
+The **delay** of each sample is **5000** ms
+
+If you change the Constant Timer is **zero,** you will see the result is changed
+
+![alt text](TimersImages/image13.png)
+
+Let analyze the **Sample 1**
+
+- **Start time** is 22:17:39.141
+- **Sample Time** of Sample 2 is 370 ms
+- **Constant Timer** : 0 ms (as configured)
+- **End Time** of this sample is = 22:17:39.141+ 370 + 0 = 22:17:39.511
+
+So the **Sample 2** should start at the time is **22:17:39.512** (Shown in the above figure)
+
+### Troubleshooting
+If you face the issue while running the above scenario … do the following
+
+1. Check whether you are connecting to the internet via a proxy. If yes, remove the proxy.
+2. Open a new instance of JMeter
+3. Open the TimerTestPlan.jmx in Jmeter
+4. Double Click on Thread Group -> View Result in Table
+5. Run the Test
