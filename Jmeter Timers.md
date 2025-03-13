@@ -51,3 +51,21 @@ Uniform random timer delays each user request for a random amount of time.
 | Constant Delay Offset (milliseconds) | **Additional** value in milliseconds                    |
 
 **The total delay is the sum of the random value and the offset value.**
+
+### BeanShell Timer
+The BeanShell Timer can be used to **generate** a delay time between each user request.
+
+### BSF Timer
+The BSF Timer can be used to generate a delay between each user request using a BSF scripting language.
+
+### JSR223 Timer
+The JSR223 Timer can be used to generate a delay between each user request using a JSR223 scripting language
+
+## How to Use Constant Timer
+In this example, you will use **Constant Timer** to set **a fixed delay** between user requests to google.com.
+
+Let start with a simple test script
+
+1. JMeter creates one user request to http://www.google.com **100** times
+2. Delay between each user request is **5000** ms
+Here is the **roadmap** for this practical example:
