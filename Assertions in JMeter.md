@@ -54,3 +54,79 @@ The XML Assertion tests that the response data consists of a formally correct XM
 The HTML Assertion allows the user to check the HTML syntax of the response data. It means the response data must be met the HTML syntax.
 
 ![HTML Assertion](AssertionImages/image4.png)
+
+## Steps to use Response Assertion
+
+We will continue on the script we developed in the earlier tutorial. For more details, refer to the [JMeter Performance & Load Testing](../JMeter%20Performance%20&%20Load%20Testing.md) file.
+
+In this test, we are using **Response Assertion** to compare the response packet from www.google.com matches your expected string.
+
+Here is the **roadmap** for this test:
+
+![alt text](AssertionImages/image5.png)
+
+The response assertion control panel lets you add pattern strings to be compared against various fields of the response.
+
+## Step 1) Add Response Assertion
+Right-Click **Thread Group -> Add -> Assertions -> Response Assertion**
+
+![alt text](AssertionImages/image6.png)
+
+Response Assertion Pane displays as below figure:
+
+![alt text](AssertionImages/image7.png)
+
+## Step 2) Add Pattern to test
+When you send a request to Google server, it may return some **response code** as below:
+
+- **404:** Server error
+- **200:** Server OK
+- **302:** Web server redirects to other pages. This usually happens when you access google.com from the outside USA. Google re-directs to country-specific website. As shown below, google.com redirects to google.co.in for Indian Users.
+
+![alt text](AssertionImages/image8.png)
+
+https://www.guru99.com/images/GoogleRedirect.gif
+
+Assume that you want to verify that the web server google.com responses code contains pattern **302**,
+
+On **Response Field To Test**, choose Response Code,
+
+On Response Assertion Panel, click **Add ->** a new blank entry display -> **enter 302** in Pattern to Test.
+
+![alt text](AssertionImages/image9.png)
+
+## Step 3) Add Assertion Results
+
+Right click Thread Group, **Add -> Listener -> Assertion Results**
+
+![alt text](AssertionImages/image10.png)
+
+![alt text](AssertionImages/image11.png)
+
+##Step 4) Run your test
+
+**Click on Thread Group -> Assertion Result**
+
+When you ready to run a test, click **the Run** button on the menu bar, or short key **Ctrl+R**.
+
+The test result will display on the Assertion Results pane. If Google server **response code** contains the pattern **302**, the test case is **passed**. You will see the message displayed as follows:
+
+![alt text](AssertionImages/image12.png)
+
+Now back to the Response Assertion Panel, you change the Pattern to test to from 302 to 500.
+
+![alt text](AssertionImages/image13.png)
+
+Because Google server response code doesn’t contain this pattern, you will see the test case Failed as following:
+
+![alt text](AssertionImages/image14.png)
+
+## Troubleshooting
+
+If you face the issue while running the above scenarios … do the following:
+
+1. Check whether you are connecting to the internet via a proxy. If yes, remove the proxy.
+2. Open a new instance of JMeter
+3. Open the AssertionTestPlan.jmx in JMeter
+4. Click on Thread Group -> Assertion Result
+Run the Test
